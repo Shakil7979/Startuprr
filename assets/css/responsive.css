@@ -1,0 +1,179 @@
+
+
+
+@media all and (min-width: 1200px){
+	.menu ul{
+		display: flex !important; 
+	}
+}
+@media all and (max-width: 1200px){
+	.menu ul{
+		flex-direction: column; 
+		display: none;
+	}
+	.nav-icon i{
+		display: block
+	}
+	.FixedHeader .nav-icon i{
+		color: #E4E4E4 !important;
+		border: 0.2rem solid #E4E4E4;
+	} 
+	.header-search i { 
+		display: none;
+	} 
+	#search-menu i{
+		display: block
+	}
+	#search-menu { 
+	  opacity: 1;
+	}
+	.FixedHeader #search-menu i{
+		color: #ffff;
+	}
+	.banner h3 { 
+		font-size: 1.4rem;
+	}
+	.banner h1 {
+		font-size: 4.4rem; 
+	}
+	.banner-shape .section-title h2 {
+		font-size: 2rem;
+	}
+	.section-title h2 { 
+		font-size: 2rem;
+	}
+	.work-btn a { 
+		padding: 0.8rem 25rem; 
+	}
+}
+
+@media all and (max-width: 991px){
+	.banner {
+		max-width: 100%; 
+	}
+	.banner h1 {
+		font-size: 3.4rem;
+	}
+	.banner p {
+		font-size: 1.4rem; 
+	}
+	.banner {
+		padding: 5rem 0 0rem 0;
+	}
+	.section-title h2 {
+		font-size: 2rem;
+	}
+	.section-padding {
+		padding: 5rem 0;
+	} 
+	.works-area .col-md-2 {
+	  width: 33.33% !important;
+	}
+	.price-area .col-md-3 {
+		width: 50%;
+	}
+	.team-area .col-md-3 {
+		width: 50%;
+	}
+	.contact {
+		max-width: 70%; 
+	}
+}
+
+@media all and (max-width: 767px){
+	.works-area .col-md-2 {
+	  width: 50% !important;
+	}
+	.counter p {
+		font-size: 4rem; 
+	}
+	.purches { 
+		flex-direction: column;
+	}
+	.purches h2 { 
+		margin-bottom: 2rem;
+	}
+	.social ul { 
+		margin-top: 3rem;
+	}
+	.hero-area .row {
+		flex-direction: column;
+		justify-content: center;
+	}
+	.single-skill { 
+		margin-bottom: 3rem;
+	}
+	.hero-btn {
+		justify-content: center;
+		margin-bottom: 2rem;
+	}
+	.work-btn a {
+		padding: 0.8rem 15rem;
+	}
+	.hero-btn a { 
+		padding: 0.8rem 1rem; 
+	}
+	.hero-text h3 { 
+		font-size: 1.4rem; 
+		text-align: center;
+	}
+	.purches h2 {
+		font-size: 1.6rem;
+		text-align: center; 
+	}
+}
+@media all and (max-width: 576px){
+	.works-area .col-md-2 {
+	  width: 100% !important;
+	}
+	.team-area .col-md-3 {
+		width: 100%;
+	}
+	.price-area .col-md-3 {
+		width: 100%;
+	}
+	.banner h1 {
+		font-size: 2.4rem;
+	}
+	.banner-shape .section-title h2 {
+		font-size: 1.6REM;
+	}
+	.banner-up-icon i {
+		font-size: 2rem; 
+		height: 3rem;
+		width: 3rem;  
+		line-height: 2.8rem;
+	}
+	.section-pra p { 
+		font-size: 1.4rem; 
+		margin: 1rem 0 0.5rem 0;
+	}
+	.section-title h2 {
+		font-size: 1.6rem;
+	}
+	.work-btn a { 
+		padding: 0.8rem 6rem; 
+	}
+	.price-nmbr h1 {
+		font-size: 3rem; 
+	}
+	.price-nmbr sup {
+		font-size: 2rem; 
+	}
+	.contact {
+		max-width: 100%;
+	}
+	.footer p { 
+		font-size: 1.4rem;
+	}
+	.price-item ul li { 
+		font-size: 1.4rem;
+	}
+	.social ul {   
+		flex-wrap: wrap; 
+	}
+	.social ul li {
+		flex: 0 0 16%;
+	}
+}
+
