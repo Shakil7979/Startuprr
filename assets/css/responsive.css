@@ -121,6 +121,9 @@
 		font-size: 1.6rem;
 		text-align: center; 
 	}
+	.section-border {
+		display: none;
+	}
 }
 @media all and (max-width: 576px){
 	.works-area .col-md-2 {

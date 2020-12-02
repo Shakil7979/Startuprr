@@ -58,6 +58,7 @@ a {
   font-size: 3rem;
   text-transform: uppercase;
   padding: 0 2rem;
+  display: block ruby;
 }
 .section-title h2 span {
   color: #00A99D;
@@ -182,19 +183,19 @@ a {
   border: 0.2rem solid #fff;
   padding: 1rem;
   position: absolute;
-  top: 0;
-  left: 0%;
   font-size: 1.4rem;
   transition: 0.5s;
-  opacity: 0;
   border-radius: 1rem;
   background: #394645;
   color: #fff;
+  top: 150%; 
+  width: 290px; 
+  /*opacity: 0;
+  visibility: hidden;*/
+  display: none;
 }
-.search-header:focus {
-  opacity: 1;
-  left: -1000%;
-  cursor: pointer;
+.search-header:focus { 
+
 }
 
 #search-menu { 
@@ -274,14 +275,24 @@ a {
   border-radius: 50%;
   line-height: 3.8rem;
 }
+
+.scrollDown {
+  background: transparent;
+  border: none;
+  color: #fff;
+}
+.scrollDown:focus{
+  outline: none;
+}
+
+
    /*********************************/
   /***********4.OFFER CSS**********/
  /********************************/
 
  
 .single-offer {
-  padding: 2rem; 
-  cursor: pointer;
+  padding: 2rem;  
 }
 .single-offer:hover a{
   background: #00A99D;
@@ -1105,6 +1116,15 @@ a {
   color: #fff;
 }
 
+
+.scrollTop {
+  background: transparent;
+  border: none;
+  color: #fff;
+}
+.scrollTop:focus { 
+  outline: none;
+}
 
    /*********************************/
   /***********17.FOOTER CSS*******/

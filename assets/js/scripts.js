@@ -57,6 +57,37 @@
 
 		return false;
 	}) 
+
+
+	//========== magnificPopup
+	$('.right-ovr').magnificPopup({
+		  delegate: 'a', 
+		  type: 'image' ,  
+		  gallery:{
+		    enabled:true
+		  }
+		});
+
+	// =====header search
+	$('.header-search i').click(function(){
+		$('.search-header').show(); 
+	})
+
+	// ===========scroll btn
+ 	$('.scrollTop').click(function(){
+ 		 $('html,body').animate({
+ 		 	scrollTop:0
+ 		 },1000)
+ 		return false;
+ 	});
+ 	// ===========scroll down btn
+ 	$('.scrollDown').click(function(){
+ 		 $('html,body').animate({
+ 		 	scrollTop:600
+ 		 },1000)
+ 		return false;
+ 	});
+	
  	
  }) 
 
